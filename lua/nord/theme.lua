@@ -227,10 +227,10 @@ theme.loadTreeSitter = function ()
   }
 
   treesitter.TSComment=          { fg = nord.nord3_gui_bright }
-  treesitter.TSConditional =     { fg = nord.nord9_gui }   -- For keywords related to conditionnals.
-  treesitter.TSKeyword =         { fg = nord.nord9_gui } -- For keywords that don't fall in previous categories.
-  treesitter.TSRepeat =          { fg = nord.nord9_gui }    -- For keywords related to loops.
-  treesitter.TSKeywordFunction = { fg = nord.nord8_gui }
+  treesitter.TSConditional =     { fg = nord.nord11_gui }   -- For keywords related to conditionnals.
+  treesitter.TSKeyword =         { fg = nord.nord11_gui } -- For keywords that don't fall in previous categories.
+  treesitter.TSRepeat =          { fg = nord.nord11_gui }    -- For keywords related to loops.
+  treesitter.TSKeywordFunction = { fg = nord.nord11_gui }
   treesitter.TSFunction =        { fg = nord.nord8_gui }    -- For fuction (calls and definitions).
   treesitter.TSMethod =          { fg = nord.nord7_gui }    -- For method calls and definitions.
   treesitter.TSFuncBuiltin =     { fg = nord.nord8_gui }
