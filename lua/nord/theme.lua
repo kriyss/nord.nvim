@@ -211,16 +211,16 @@ theme.loadTreeSitter = function ()
     TSStringRegex =       { fg = nord.nord7_gui }, -- For regexes.
     TSStringEscape =      { fg = nord.disabled }, -- For escape characters within a string.
     TSSymbol =            { fg = nord.nord15_gui },    -- For identifiers referring to symbols or atoms.
-    TSType =              { fg = nord.nord9_gui},    -- For types.
-    TSTypeBuiltin =       { fg = nord.nord9_gui},    -- For builtin types.
+    TSType =              { fg = nord.nord12_gui},    -- For types.
+    TSTypeBuiltin =       { fg = nord.nord12_gui},    -- For builtin types.
     TSTag =               { fg = nord.nord4_gui },    -- Tags like html tag names.
     TSTagDelimiter =      { fg = nord.nord15_gui },    -- Tag delimiter like `<` `>` `/`
     TSText =              { fg = nord.text },    -- For strings considenord11_gui text in a markup language.
     TSTextReference =     { fg = nord.nord15_gui }, -- FIXME
-    TSEmphasis =          { fg = nord.nord10_gui },    -- For text to be represented with emphasis.
+    TSEmphasis =          { fg = nord.nord3_gui_bright },    -- For text to be represented with emphasis.
     TSUnderline =         { fg = nord.fg, bg = nord.none, style = 'underline' },    -- For text to be represented with an underline.
     TSStrike =            { },    -- For strikethrough text.
-    TSTitle =             { fg = nord.nord10_gui, bg = nord.none, style = 'bold' },    -- Text that is part of a title.
+    TSTitle =             { fg = nord.nord3_gui_bright, bg = nord.none, style = 'bold' },    -- Text that is part of a title.
     TSLiteral =           { fg = nord.fg },    -- Literal text.
     TSURI =               { fg = nord.link },    -- Any URI like a link or email.        TSAnnotation =                                                                  { fg = nord.nord11_gui },    -- For C++/Dart attributes, annotations that can be attached to the code to denote some kind of meta information.
 
