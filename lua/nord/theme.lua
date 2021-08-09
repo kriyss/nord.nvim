@@ -196,7 +196,7 @@ theme.loadTreeSitter = function ()
     TSConstMacro =        { fg = nord.nord7_gui },    -- For constants that are defined by macros: `NULL` in C.
     TSError =             { fg = nord.error },    -- For syntax/parser errors.
     TSException =         { fg = nord.nord15_gui },    -- For exception related keywords.
-    TSField =             { fg = nord.gray }, -- For fields.
+    TSField =             { fg = nord.nord10_gui }, -- For fields.
     TSFuncMacro =         { fg = nord.nord7_gui },    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     TSInclude =           { fg = nord.nord9_gui },    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
     TSLabel =             { fg = nord.nord15_gui }, -- For labels: `label:` in C and `:label:` in Lua.
