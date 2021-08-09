@@ -184,7 +184,7 @@ theme.loadTreeSitter = function ()
   local treesitter = {
     TSAnnotation =        { fg = nord.nord12_gui },    -- For C++/Dart attributes, annotations thatcan be attached to the code to denote some kind of meta information.
     TSCharacter=          { fg = nord.nord14_gui },    -- For characters.
-    TSConstructor =       { fg = nord.nord9_gui }, -- For constructor calls and definitions: `=                                                                          { }` in Lua, and Java constructors.
+    TSConstructor =       { fg = nord.nord12_gui }, -- For constructor calls and definitions: `=                                                                          { }` in Lua, and Java constructors.
     TSConstant =          { fg = nord.nord13_gui },    -- For constants
     TSFloat =             { fg = nord.nord15_gui },    -- For floats
     TSNumber =            { fg = nord.nord15_gui },    -- For all number
